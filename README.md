@@ -1,12 +1,14 @@
 # Home Page React App
 
-This is a simple React application with a navigation bar containing **Home**, **About**, and **Contact** pages.
+This is a simple React application with a navigation bar containing 
+Home page
+About page
+Contact page
 
-The app uses **React Router DOM** to navigate between pages without refreshing the browser, while keeping the navigation bar visible on all pages.
+The app uses React Router DOM to navigate between pages without refreshing the browser, while keeping the navigation bar visible on all pages.
 
----
 
-## 🚀 Features
+# Features
 
 - Navigation Bar with Home, About, Contact
 - Page content loads below the navbar
@@ -14,9 +16,8 @@ The app uses **React Router DOM** to navigate between pages without refreshing t
 - Clean folder structure
 - Built using React and React Router
 
----
 
-## 🛠️ Technologies Used
+# Technologies Used
 
 - React
 - React Router DOM
@@ -24,7 +25,17 @@ The app uses **React Router DOM** to navigate between pages without refreshing t
 - CSS
 - Node.js
 
----
+# Project Structure
 
-## 📁 Project Structure
-
+src/
+├── components/
+│  ├──NavBar.jsx
+│  └──Navbar.css
+├── layout/
+│ └── mainLayout.jsx
+├── pages/
+│ ├── home.jsx
+│ ├── about.jsx
+│ └── contact.jsx
+├── App.js
+├── index.js
